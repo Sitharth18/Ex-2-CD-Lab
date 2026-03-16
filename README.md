@@ -78,10 +78,22 @@ yylex(); printf("\n\n"); return 0;
 {
 return 0;
 }
-
 ```
 # OUTPUT
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/3721d1cb-ba8a-4c11-9b09-b040f58e4c97" />
+```
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
 
+C:\Dev-Cpp\TDM-GCC-64\bin>flex exp2-0058.l
+
+C:\Dev-Cpp\TDM-GCC-64\bin>gcc lex.yy.c -o exp2-0058.exe
+
+C:\Dev-Cpp\TDM-GCC-64\bin>exp2-0058.exe
+a+b*c$
+
+a IDENTIFIER+
+b IDENTIFIER*
+c IDENTIFIER$
+```
 # RESULT
 ## The lexical analyzer is implemented using lex and the output is verified.
