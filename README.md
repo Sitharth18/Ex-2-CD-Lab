@@ -84,11 +84,11 @@ return 0;
 Microsoft Windows [Version 10.0.26200.7623]
 (c) Microsoft Corporation. All rights reserved.
 
-C:\Dev-Cpp\TDM-GCC-64\bin>flex exp2-0058.l
+C:\Dev-Cpp\TDM-GCC-64\bin>flex exp2-0048.l
 
-C:\Dev-Cpp\TDM-GCC-64\bin>gcc lex.yy.c -o exp2-0058.exe
+C:\Dev-Cpp\TDM-GCC-64\bin>gcc lex.yy.c -o exp2-0048.exe
 
-C:\Dev-Cpp\TDM-GCC-64\bin>exp2-0058.exe
+C:\Dev-Cpp\TDM-GCC-64\bin>exp2-0048.exe
 a+b*c$
 
 a IDENTIFIER+
